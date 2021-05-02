@@ -11,11 +11,26 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{BB3A7612-8A18-46C8-8B61-8CA868818AA6}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{79443A6A-88A3-4A84-8666-6896AA7AC463}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ML-RefVm-765087.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{785A9D66-9CB1-46E9-A245-D08A7AB57AAB}"
+      DTS:ObjectName="ML-RefVm-765087.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=ML-RefVm-765087;User ID=sa;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAClew0U4pslODP/Pb+U/acjfYe4812OeXcNOe+Y4DwtxgAAAAAOgAAAAAIAACAAAACls7xhv28xlTaqhQXaDILBK9olCedegyGZw+iDtaDbjTAAAAC0FgbppMURptfVoJgHvpsHPxori2iDQJDR369+6pZHQ/9+vZ6d+wJX6/KYhM+HdGNAAAAA6BAnw8wTU5jy3+2kSJdK02XwNiGUORQgZyAKsFCpYNS8AOhTxUkP0Ki7PD+j6ZlPxcpAUdayix1nCLk8XLHyFA</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[ML-RefVm-765087.SourceSystem.sa 1]"
       DTS:CreationName="OLEDB"
@@ -27,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPaAYG4e+OLeCPLinH3TR1kzBJzWyDJ09eiPIp5p1cMwAAAAAOgAAAAAIAACAAAACeCSxN88etX2kVkwUTFxsxu+xLSDokAtPY8Cvj11QNoDAAAACinn6Y6XuytF45jRHJemdiphMxpRc/FWaTaxkcnx7YvB9CBP3YTqC9jCJ+TbqRThVAAAAAuz3VW5ipk+QCPRdOwNAbuLpGIy+9vqx/x/9SwrxY6ivq+HkbajtMLeP1XWv/WsmayA+LqRQKmCaETBjY3Znz9g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnz+fjxI0l2LDUBs8rPqW5hs8yNzUYIXi05cEo64g/ywAAAAAOgAAAAAIAACAAAAADdB2VDWegTGuczK/kDTaLX0slFcwnoX30iVTVB/3oTTAAAABB474cYirXv2FqVKhy05382F15NxD9+yrHQ+MGUM6ZygtaVrc3+x0Vk0xu6X6dMIlAAAAAcybORhu+8wymUWJuwj4C4D0D1omDQ4FkAS9z+G74yClmbRgKw7TdNSh5Oj0g2cpvIfANBbsmRLd++OB+R9G/aw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD/pb3Gr/9wyEZ+cc+/ORRRQGWVn+yFOEHnYUmtBwLa3AAAAAAOgAAAAAIAACAAAACt6SP6EvcgSliFVIVTmnlcHI+tECRHroRtE2cUeUlfxDAAAADbgGgQwtJSJ48or1cHJlYdK8d+qLVy1bXr8VohZ7rgmo+gQXqy3x9N3j/NqxeCk/dAAAAADDCNbvzM56GPlU/mF1Ck4FKwF3QHhiKCc57sl3u340IQuEDAei+eLoP9LVBfzLgEy/KcCL2vL14cwuogBSzhDQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB/X050ILLGyy2WVlCh9ctMpa0Wl6nXIEv39QrarYaNzAAAAAAOgAAAAAIAACAAAAAySSrKJNXvn2JEgrkYm9uz25ZcDHiVUcpsyBQUlZXN6DAAAAAGxmx3CBqF4HA6TE5Vwswv94nD84b26yuLYnarwYoLnIYPtKl7OvEu3SscSBNO7bxAAAAA3vCpiSu1LswrYLIhp8YOyiF4yeG6GRMcznqQex80U+Iuiu3Sog/AOsyFOBNA1cWj5Xgl2cOX9QZIZvR008FOAQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABW8eaLKeT6kFGce+jg+tbNxkJRX075qq/9v2YPkYqqzwAAAAAOgAAAAAIAACAAAABWCBRxLnIGxxY9fVbz8kCsk5LYRiIy7N6NPjJJyLiduDAAAADjvU/l3+UvNahEXNsNAjs4OxSJZdnaBfIjWZCDPlL1Fa+R1S3xrkCFL4G29kETEi9AAAAAOrLJlG3eLMb1LEQtcK2Gk4+AxfW8mBJq0pycBSCu1+2Erjs11Id3Lp5ltBQJHUolHbfOnWqqYwTwx0AADuBXRw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADjRy418AtN0nuc6wdCNZFNX4ZuHEWO/99+GL4wFIw3dQAAAAAOgAAAAAIAACAAAAD4YNHNRPYibNJdXnG37ARf0K1sm4KlWiOFxIggQbEA8jAAAABErU1S08UD77ikoisRa23PrDl4KiWQ0yxzDTfLGggKPzMoYqf1Lspa4MJ5HaMiVtJAAAAAVVkh+IBBJOyV7cBca2VsA4po4/hPocF2kImDES+8SuYE0SD/hbEDb4lIY6tX49jK2DpkKEm5wLYckzmWAPio8w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +87,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAB9CBDRBNqqHkZAa0MaA0gKIGJ86dvfT/ugzQoHgHvngAAAAAOgAAAAAIAACAAAABRv25xaK1lS+dYvu/T0mPDHNkdqs5GZNwzyW35QjfhxTAAAADamfchDmWrUGmGMGqTm33MVGChcewXA11+MdB5tZakGTjY+KCuo+/y2hCMEsCBDMdAAAAAeHlUo1pxXHKiC+0HEvp5oqzuNAo5Tk8LkeGLHIh1WpaJPyO+doB7oa8KjfOPiknLWVzL0HjrZ3RuTLzue0MArg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACvrsCzcpsPTQpKNC7mntDjDAxDvp0L+1AvAclJL+kXYwAAAAAOgAAAAAIAACAAAABzYcGeKNLLJH0R3pspVBPEFZfIo4staXe/M4hR5kwjoTAAAADwamEySmCagdognI25b+BOH+bYy/QP3omGid7QNFarqZV3R+M7Vmj9IbO3ctYQ6xFAAAAAwQaO0LE+dbXlM5e9CjWbYfAMPg6oVK/1hBhQayrbYy7PNpx5BSD8vFwDh4MxDsxt2tQky63pKaGHyR/W3q+oCw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -87,7 +102,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAALFwRcLdDHAJPXtpnn+uHtoG5TkjkDg/624wrPkY4fZAAAAAAOgAAAAAIAACAAAACYY2juGms8BMCh2zBYoujy1haaBY79rd32CFSl8LKy/TAAAAD8HnGiXthbLMzub9XMYcpASPIqJNOD8sKsR8dZ1BKGDI1lEu/VWG68n8UKysTDjBRAAAAAwc2OFpuG+vDkS8sq21GrkDbcP26gaSa1nY7h/CAL1jSBuH6KpklEjA2QjPSOSNRmkZSOReCNU0D7BQqEYQjSNQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAWhGVw4l2CrsrEdgogEcSSomdGn3vCg5qnLuCP/UA8pgAAAAAOgAAAAAIAACAAAAAg9Uzv25sYlLvLTyjIJsIA5mocRhVxe1PLYLmzhc6jxTAAAABv4cTQZfJcCHyejt+Z3B4+TblQG+RtnFtqrjPyf5cKBLtJU65ed1LJJmT4McIOSc9AAAAA2bWBzVEfO5CuEiDtVlx7E9TUQVOUTldWKaHnZNAXGQyBPZY5ZdJ+jlGCkENaQRr2DMWBtL959W0Bzh+IyIt20w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -102,7 +117,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACZVYi0Mrp/vYrOMW5vOsiuBxhw89lJx4RomJSwHy2tHwAAAAAOgAAAAAIAACAAAACVeR03/nzHhJcwtsFNNYiVmqDOjFSwU2uxyzKRW2ErMjAAAAA+56DdLDaM1rN7TaV706tA5dqs1o1CakIYFqhAS2k9mPJjDOEerVSzX/eiHDCMIu9AAAAAymzWm/hD+iAiCOBBEIFCgAoJ/PsLCMIx1LJ+eo6gYraM2lg9z84HJxCh4ywNPz9o04H0jGBL0HU0zjT8rl72BQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC6Dv1cgPVTpHTtpOP5TGfZhj3D0Z65mx4Zvvy6B6PYMQAAAAAOgAAAAAIAACAAAADbohm9PP93jJnS89yq5DjclsfPYv/aGQ4eeRqlFNldDTAAAADFbgPzwl7wkRSZHVGPnjC3tQNHEoj3NnoeKzZbpBDGH6lfyeuLQXjAfvxr+2X6KoNAAAAAEJJs2Z5yoN/hWg7cSAq2k93VqSn4fXPcTPCWIatP0VZEDUE57fLS2Os72gvXQQ1oKQ6Q/aXoC6Gh6dKRMbKtrQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -117,7 +132,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAABANhXW7PWQQVJCsMiupcg2GJQYlBAJxzzzYO2X8WjjwAAAAAOgAAAAAIAACAAAAAWYJYrD/vwAuKpHUEu140IufTLMWGwxY1yh00dXf7JfjAAAABoha5h09ehrWRRJ9AM9KLKm3LqdAXH8FdCERyIHtB/RArvXRjzmATpbdNT27kj1G5AAAAAkZYaTsJwM42CvHIGvQOUgFFHC8QVvSBf0y95HQsoYZt9SgmHI2v4H2pw1zhQQAAmP1BS28rfg8XM/94BQC0XEQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABp0U3PPObRa/lD0YAazOeD2kWwNvwk4XEqkKYTFOsOkQAAAAAOgAAAAAIAACAAAAA+ko1Vp0UZDFUfhX+KNyIi+xtErfsYkkDbieXbNQlDQTAAAABqgpEnaPAhubXjCfxwrSEh0a6pqTxVs/dbdi31jdjXsLW78WaGNVWDzpg8pCSNnRRAAAAARfsc7c2WZmxDgHNuhevnvVsuQtku/Rzf39Cc4ieRxmyWYzTId6raXWifBQNsKrdebA6nD9DN7v6U2H0lxHEYIQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -132,7 +147,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABvE53qnDFkRvrE6RKhPqI4MDadGK0cahU3cQ2Q1SZFUwAAAAAOgAAAAAIAACAAAADo/WQQDAH1mwn3lxISq9zp1niQlKeEM1utJZSSuQ8MpTAAAAA2JM3RG4IHI5/xwvoUmFMrrNPN9y/61gZAmlkPMsoYA5LyIDXGip1TB+5DuhlNIMdAAAAAd6ydXF8PnRIK6cpb7f8r5mm4Jn6xBIGf8IEd1yjWvpRelVEt/65ocTB2A7VgZzW4xlHxUVS4QtYKYBmEDVh9wg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABkULTg+qkTNJ0lqfGd79kCYdLSqZZZ/StY2MyssVDR8wAAAAAOgAAAAAIAACAAAACC/vj0qbYSIZ5x35zPyxgV4WQYSimryBeMWsOATiTxOjAAAACIWQgbbrsy12eMVSDXG+O/Z8mH4mm9q0Ffso/X+WvIdypZAYp0MkZiL4yS1TIqofhAAAAAzqLduEpjxpyiZuOe0wmPh9CfSDltnbTRiVoOCxDo8HpcMHJp09C/esViWMRfKrpsvLa2UrRu9UldtQyAIWfEaA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -147,7 +162,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC/YKxQsI8fS3h1ynptXbkGvg+mJvOO1pGCrz3l4jw24wAAAAAOgAAAAAIAACAAAABttqY6Q9Ab98z3GP9Q7p42c8cMlpdrXg5rIxEBzqvEaDAAAAALor44veb1A4pDWQc3sm2D5pAE9SYppbBId7KmAjBxTVRtLLZw0I7kDLbDWtabf19AAAAAGf1SaRLiCjyT78fOoN6oNh0USsLeQepvAgLI25ig2ZHgDEu3UMPb09V/ouAhyrFMmEbgiuQVK9ZcKjEzz2hzew</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAMWac20nrmPPEZpWYWJUae7UTkNPxaOGOA2SqoMMT0CQAAAAAOgAAAAAIAACAAAAAgAMRpo0kttkHTLO2uLHulhtseBtIC100UzatqvwcHnDAAAACikYap1RU6j/Bpo9rbOHTSauYal8hZGIJ/LQo55gs4R6mpQt9v4fIhUWDthFqLgcVAAAAAsB73rt6jNbIhMtSqxrB8josmCSVKZypoRjXJgtFXBKodCDE6RmDsFd0odNSMsjUMlZIE74GlJoQgX7eiCK8vFA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -162,7 +177,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABJzBg5gd+ZlS9L0B7LCQZlbrU75SU2KU7/8vo9tzg9KQAAAAAOgAAAAAIAACAAAAB9McP+wZDsJp9UERVR1fDqThEr1TGAs2kYoBqGebJcMDAAAAD5Ek23ERw+f7d94gV1Y+bL/mOJRKhdZ+cXnYfIgo5SVDvrpGwlGgDDIW8NQnX9jo9AAAAAApK7HhfNUmwy/JlUCiaosty6A7euIcbfzx5gNOSdDhUmagAqpnPZlXJPDqamFLNj+0zCs2E73CJKuCbJ/3m89w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABRmWWiCYGcQPhAIWltBq2VjjLUBo6FpiLbmjeL3Anh2AAAAAAOgAAAAAIAACAAAAAs6suIzHBe/xgb9TTG33UO5wKdDsB9aV4pvV6qYYzi+jAAAAAlcJ6fsI7cLZxJwbqEXIL1QVC4tej+J2TsfXtvWRvS33cXI1E3yPQP86GWxmcLZY5AAAAADYXMbLXjHoGicSQj4ZvNkim6N0ebouW6jZvPn674M7r4g2dxckntAzWSKyF5J4CuX2rDK/N1GUc3+cXV2vaxvA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -177,7 +192,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAN+wivYAzN0LeDzwaDNnaZhJvi4fTPpua0lB+WDy+wJQAAAAAOgAAAAAIAACAAAACq5AdqfpO4cUcTS7Ff5k4XoS9uXi2BaZxovXm5cdU5ZDAAAAA+R8INFXJRzvM6UFwfzwMTa3R09j2bGthBptfd1tOFbhC47rcKos8CBEJlFM92dclAAAAAn9sTkWMxLsFhQ9UHACoBCAHlATP+TxgrDF9staYd0ruwJsMqIrxak0UjUSoli4HNlrR+ARsn9YT8rBV66klLyA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB/e55R5IP5qEAZu668Yj6wrKHmUrhpzMi04FfLwJEebQAAAAAOgAAAAAIAACAAAABCMmKg2VjQAxniGw4fPMz8gf0L68Z8vrvNmDpB2qesczAAAACKZXNzLGw0kHQmr+eOTrbcgSqfjEGSA8Lie+yv1MAvYJEZbud2PvZYnrargQv8ASpAAAAAkTadewyRvPRqb/Srtt5iooiivkv9nf1FW/Ihv8iIQyulKp5tzSvTrB2mlBjErZwT50R3Ce5jjCCCI2lYwpdh4g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -192,7 +207,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADUEJec33EVygv3MkELpONDJzC3WbQ2PWOOYFoSn85kEAAAAAAOgAAAAAIAACAAAABidmupz+R1kYRw0rogjP39CTiTLQL2v3i1K7PKjAOV9jAAAAB7yjE2vHkve8XGG47vx3jeCYJ0Bc79/g2nvVRdNscPY+8PKkE2vfteqHsSqmxN2+hAAAAAqeNPcSgH+FLYojfcAiF71FY52nCfL9eIgd+KBBGX+8eOnykmtJZH9huHbg3Z1ANdpZRteDv/QUio06DoB2TtVQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABDFX5SiG7O282nJknQyCokq85gpueaKoVhtG2CWD5vfQAAAAAOgAAAAAIAACAAAAA+iWOLqEA29vqF+exOfWxLEWCfo/z81IG85W+y0tjQ6zAAAAA9loPaQ9CAd6PX2yhNHDqMMtDVzate2hhKjKzRi0EyHKCWusSl74Gryt5np+qlAbRAAAAAi0PVkH4QSP/UfTO/KW6ORK7wEYjjQf/lDionMACgTgBNBOZVyhbEm0MFvTd7lDQD92I6uu0Qqhohtzt1WQcMaA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -207,7 +222,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAmNnVuUqzfzopsK6if4++GNp0lhdf2BF52cKHk71cLkgAAAAAOgAAAAAIAACAAAAATQel7hRVSSSHj5O9LbvqVtkMSUlVsmg4IfWqHWL/UuzAAAABqhbIFjUuJuGSrD5B7DmYiBAaM5yHtuiZLmZqAu8EdEIoO1lCz3w0OTZjmH24B21RAAAAAkHh4oIcJfJUGjMYRO98MXNYn6OJO2c9fBYf8d/vrCo15MJjGd2BOwLgOi4Si0rdWcVjEyV3iOJhYg7PLoeNHzQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB6vuaAAjOaSLrX0jF0UgdFyJxR15fy7IT0CH5mbiJLNwAAAAAOgAAAAAIAACAAAABNxm5J3q99jb93FYHs4OZ0gbPm9b63Vwa+FjB6AVm+jTAAAADLfiNORV9MB6hSRBlcdAfAQo2XARfFGhftlK8x0bMAkfsEBuTCH/iCFzPZzSKC7HpAAAAAexHa+KYrm5uJWn71YC+EOOlOV+58jNj+h+BTGZNEw5D4gLodcv6M4MHVKypweOWxVVi18qWCYNBqP7UcLEUGXw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -222,7 +237,22 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACrnaRcH2JvRp1C9d1qUObHx7zGj5xDBrxCmNxGr7yW/wAAAAAOgAAAAAIAACAAAAB4chRCJsls8FtW/SgC6ii+sXA32ArJ9ZzcZAiS0reGETAAAACPwDdFQBoOv0J0WhEbH8J3u59+2zlqOe+QForzLTevMxwIRrTSmpBOILMFnkxfxmNAAAAAlQ9b1J7Xka/wIo81FmDUngoo7i2y8gGV0U5VNnzEVH76yuKHCSBBQMezrPr2/ZnRAjUi1HMHGBY2EGQt0dZOrQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD+odVv299u3RDQoAePU0smuimrWsOZRi/n1qCB3XVg3AAAAAAOgAAAAAIAACAAAAAXL0qJAmHSiinj7aC4yoVQR0KNBj+ddt4xy2OsyDb0JjAAAADCtXf48ktvQpYLfjhpYp88mj+MKOVCtcL5xieqp3sNpyXdf1BfpIuMo+4+MuII+SpAAAAAIoSk36ncdjhwWmeGHeKSLtUwITmMpJHB25PGw8PArMfa7uZTqnrXAozeWyW2H8QboSbzZdSXIZvHg4+z8aNosQ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ML-RefVm-765087.SourceSystem.sa 22]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{D72F7363-08E3-4F09-93BB-0A7D405E3796}"
+      DTS:ObjectName="ML-RefVm-765087.SourceSystem.sa 22">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=ML-RefVm-765087;User ID=sa;Initial Catalog=SourceSystem;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABKUMLOqkN4R20a8yYVoHRyUvStG8OqS3PinjZi7O4gRwAAAAAOgAAAAAIAACAAAACNEwMGqgyv3BDavnnty5dR2KHo//xghFixsjgN1owuszAAAAAlmkYvZTMN0EnSxZkcgAdsXXt3EAW2JxzN6l0nKBjkvVN5iJKmNhqIPwc5+vRMj61AAAAAaIjBQlEcJMeBbXmQv/L6uxm16/tvVSIrdT5Y12fdwV10XsyOuDlnw1rqLhijiZe9k+kafMcg26WdiZ3rYfSM9A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -237,7 +267,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACVfjn/blLotF8x2NLm0aiSx5ljZ9LsGaQk5++I65FiSgAAAAAOgAAAAAIAACAAAAAO4JB3hiz1eFOKWd02LNGJ3fDaS9U0uAnx7nV1qBlODzAAAABrP7r2IVGoLib7mVN7zq74BOKZ3sAt8brok+Yz0sbCM7A6ZNo5yDXMbiPRHxBaEU1AAAAAs81qKlu/ktDarmDe9ZaC2p/8p0ICYVfa4a33WEGJHOaj6iNiWZTFz5Pkg5qSSqr1b2qeSHzBW5u921VGaA/V5w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABCSTIwTVLf3S8hnNL4aTCussX2gtBEOWlOI6tXEWu8AQAAAAAOgAAAAAIAACAAAAB+keoruIGI59eRKinmMd7xNB9h7b1MknRuA5XS3cJjlDAAAABl4U49LtBWtyO2fVkgn3w2tVwyYVAa+Sa7MyYomU3e0++QyHbOyP3CVmBrxefVwr5AAAAA8DXJKsjSGvIF8YM9GZPC/55tKpf0FCfb8YITknpGJnFiWXMKKEjITSMLr7UIjpHiyvmcFsxAtMAI2Ekeo8iHCw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -252,7 +282,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuFvsgVmHFUvfZ6oawAmO76xiHRDT2O8Lg9HmmoeHarAAAAAAOgAAAAAIAACAAAACsExaImpoWgigzqUb54Swj500qje2iMoxaaubDWOMpAjAAAABNdQz46TTFXOTNWmcSQGLaDPHoPM594Gzz75HnxnJaHibyWQKZ33WEgnwazRk5HspAAAAA2yZHzXy806/86xZWjRYebdQOp6IVs3LYGDUb+AhBvZE9Z61kUBAK4cHpOYQ/bblTCrjRg5LqeTJ70LZBy7C9LQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABcJa5/ucoO3tnE4bE2N3P7y9io4jvN3+SqI0VtL0uvnwAAAAAOgAAAAAIAACAAAAAG/7EyENsEzrVe1H6H7xDSge37O340Ajurm1FZZZentjAAAADi0TZ8+vzpgPlvDWmGIyV0cih8Q9Rtdzf2eZmeJMQv2ma4/aFemgMy6N2Ufn0i+Q1AAAAA63FBatL+e/iA4DNjBcIjjc8l+rJierwe7BBbSkd9X6WQg7lHu5labCiGoID5JvCrwglN8+2+bnpOB7maEtXuww</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -267,7 +297,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADVvLR0wPupvbXLXDsnXOnRfA1jLBUhNVlNy/FG5s6CxAAAAAAOgAAAAAIAACAAAAAQ06tUI0n9l+nZcej7mPVdEnjUT7RM32/PaWMysJUgFzAAAABKch7U6fK1QL/9yPRl/Bd8EXisWjfeo78iTT8pQuZnXR22qNVOv8TbKVZwNZOFatxAAAAAPkgqdxermWGW8zL/dh7N5Xtn5O6MVjKbBeoNlP4sH6NQmIrzGj3QT1C/2BPdZb3S30EzwG2dsU6UsK5Lu0jy7g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACBuXjVmYPHv61WsxOZmWOS9V/k1Nh99p4NxADquPVF5QAAAAAOgAAAAAIAACAAAACmIuqA/iq8ViOtBajNdpVOiabyhBQNM8W2z7N/AUrrpTAAAABuDJyGdn/Qd70DOLDFlVR/2VnI/k19ODOIX1MWcy4mlgrDZGE1r4v8V8Z9MpIFnF9AAAAAI80Y5hn7SjUIrKzbk+qqmc43yiKWe2SUs/0i0Wu62UOprQWfLw+QS5+IthVugHoIrzqjEYmNJhfH9DPMZ5E5gg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -282,7 +312,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAuLYaGQE7JF+NSTXKjJHsV44ZhdeAkyiw47OeHnYdhgQAAAAAOgAAAAAIAACAAAADupVSxyGFZbr/dD8IYCBt64dzKiNNiGUH4DNI2s1AuIzAAAAA6BzImTvXfDZe2DZRuNrU/NM9+5ufZZ0ziHkhb1wuKnC5LH12XV4Gwr1eN2l8uwStAAAAA4zdVFYO5IBUi/RAuLxQDc00kSf1g+LpMZew0BPAVmr06iorWBZLHhzkjxjFcGuFpwIaAuyBUhzRoi831VIbgYg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAZFaND4tBZ9kfBvsNneq3v1blExAby5b1NOfLRKiIvhwAAAAAOgAAAAAIAACAAAAAmRcqv80Ubat2D3gFYNFtGltS/Th9dDCAahobKnXM7lTAAAADBIDL2OVLk/AFmrwJo1vffKp7nA5pvr04vsiCSOaF36WV5cdlrFpdxXI1sa1a09lRAAAAAy0OLvOdZ02Lb+UysrSnIu5ajnmjun+Mcers+0BPVaqFQr3usyFSJCMO+u5udHnLGDyPSufKyoaxVx+N8WZ2vWw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -297,7 +327,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAUG/Kor7Sc7eyJ5GM/eri9Bi2PmPrEwJciXraavcOZHAAAAAAOgAAAAAIAACAAAADVBjhDeek+GVyvF3xsMTQj+x8SkrwM7cGUzLWfV9X6zTAAAACaaln42e4Pd0uX/1DGfu87WJ7PMW986ypu4evYeumHeCik2MDTO8JJxrv59F3ToZxAAAAAbUh9PKeGSrXUJjaBGbKKo5/BihzGNlchy2feVxb593rdjoCnSAE9S8ZdUPKuAdQ8GkvBOQST5oh9tXyOtPxmIA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABWruIkvdH7N6wRgciX8J0uoAFkbFvrZ2ry5U1wBPQEwgAAAAAOgAAAAAIAACAAAADwB+c1v8lifpf+RmG+2Y8Q2jU2tpqi2gnZY9v6BgYbTzAAAABM2siak+AruK8wibR1dUHFN9iJ5Pf6Otyk8L58aLk0Vuq8JTJBzhgqWQp+vLRNSE5AAAAABjjyaYeSyuY77kCe8MSJPyN5i+vpTRvSqQ8aFCUSNSDn3EOgGTj7wTtvDnZNwhHTBpJ3mcBO/CMnzf9b8rpVIA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -312,7 +342,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB+nkwsTfjuMIuz6TMUm29QaVQRujhZRffkTUcIyY3siwAAAAAOgAAAAAIAACAAAABXNsOd6RSV8H98lv5nPPsk72s1O6DDmGa8zlvhdZqlGzAAAABVVW9csm4DtcVIbCN6sltonMEXOAf3/hIVQ0aTobwk7QrVCOiRoBfVrjgNN5IwnmVAAAAAiDwGhA3SwnkCmQwZqRTX3l22NMi4Krjd0oZyEIW3Qt6Vr2sTuJAUHzDfWMdOfaALqZmWK4KQvNrp7FuMx2/BWw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADc/W0zdhcJmZzG0cDtqRmK77ap9YeddgVSt3caNSZlzQAAAAAOgAAAAAIAACAAAAA7o1Sb7U4tHbBIVy8V1j2OP6f20Pbi1KpB7Cgs8OZTUjAAAACBD5qm4fuUIyguwL022hLUwGRjJMfGHgB4QhYgz9uRBUnGNj/edLhhUBHiqWaWfLlAAAAAgAyBxJA/ssbN/288hCN45NzcsKXgd5q9GoZzHUBRKpQT9Omhp3JaqSXJMrhDe8L7gS7IF4sz6enHWUNUVkiGSw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -327,7 +357,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADK8E5mqgvHC0IPNbWa44L4Zys3caqy+K6pm349Jvq5HgAAAAAOgAAAAAIAACAAAAAFRg0ml1ggV5LaEDIMX8XcxVAJLEdko5GDm/U98WsEzzAAAAC/PIBWGfUSL95ajk61dgzhyk73Vqn7f0yPzDKdjFV5fUFfsBoqG+hdbnToWHXJ49tAAAAABOgmPB29gxxeDjFS+9tb+UTF32YpnvgFP4VXorIYX8I9lBOjcLDHCW0aUUEqwWWJdwYvVHe8ZU1NfUqt6K/VFA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA54KyuZjarVkMS9cV2GDsX5QaaMGf73xNDZHZttAUC9wAAAAAOgAAAAAIAACAAAAB1tScoDie8tDYw7mO4RV9U2yu+7VB6gWlG6vxa/csCIjAAAABz2tf0ej1xPgre+zXgVZrQJ6apsRVTyMHEM3Qjwk7wrP1jrFcctesxvOi/9sRgR35AAAAAwEsiwuvAHOYQMwVtI2NajYgycuqHNjOiBnu3CzwjtvlloIyRtKiTk4NTbmDCB+RMRSTlcZ3gtdXlFIH2e/4OpA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1156,6 +1186,712 @@
               endId="Package\Stage ChannelCategory\Destination ChannelCategory.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
               startId="Package\Stage ChannelCategory\Source ChannelCategory.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Stage CSVFileOne"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{0625A1BE-71F6-4142-BAA7-76DAFADB3E27}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Stage CSVFileOne"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Stage CSVFileOne\Desitination CSVOne"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Desitination CSVOne"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[StageProductCSV]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Stage CSVFileOne\Desitination CSVOne.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ML-RefVm-765087.SourceSystem.sa 22]"
+                  connectionManagerRefId="Package.ConnectionManagers[ML-RefVm-765087.SourceSystem.sa 22]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].Columns[ProductID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].Columns[Product]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Product"
+                      externalMetadataColumnId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[Product]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Product" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input].ExternalColumns[ SalesQuantityTarget ]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name=" SalesQuantityTarget " />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Stage CSVFileOne\Desitination CSVOne.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileOne\Desitination CSVOne.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Desitination CSVOne.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileOne\Desitination CSVOne.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Stage CSVFileOne\Source CSVOne"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Source CSVOne"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Stage CSVFileOne\Source CSVOne.Connections[FlatFileConnection]"
+                  connectionManagerID="{49ED4699-6C8D-4F6B-AEAE-6615E59EC9F5}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[ProductID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[Product]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[Product]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[Product]"
+                      name="Product"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[Year]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[Year]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[Year]"
+                      name="Year"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[ SalesQuantityTarget ]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]"
+                      name=" SalesQuantityTarget "
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[Product]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Product" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[Year]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output].ExternalColumns[ SalesQuantityTarget ]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name=" SalesQuantityTarget " />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Stage CSVFileOne.Paths[Flat File Source Output]"
+              endId="Package\Stage CSVFileOne\Desitination CSVOne.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Stage CSVFileOne\Source CSVOne.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Stage CSVFileTwo"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{8294F2B9-21A2-4118-B674-6DF000FC5E3A}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Stage CSVFileTwo"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Stage CSVFileTwo\Destination CSVFileTwo"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Destination CSVFileTwo"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[StageChannelResellerStore]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Connections[OleDbConnection]"
+                  connectionManagerID="{48DA91B3-E61C-413F-82A4-10B40AFBC87E}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[ML-RefVm-765087.SourceSystem.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].Columns[Year]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Year"
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[Year]" />
+                    <inputColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].Columns[ChannelName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ChannelName"
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[ChannelName]"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[ChannelName]" />
+                    <inputColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].Columns[TargetName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TargetName"
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[TargetName]"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[TargetName]" />
+                    <inputColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].Columns[ TargetSalesAmount ]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName=" TargetSalesAmount "
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[ TargetSalesAmount ]"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[ TargetSalesAmount ]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[ChannelName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ChannelName" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[TargetName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TargetName" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input].ExternalColumns[ TargetSalesAmount ]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name=" TargetSalesAmount " />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Stage CSVFileTwo\Source CSVFileTwo"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Source CSVFileTwo"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Connections[FlatFileConnection]"
+                  connectionManagerID="{D275D15E-7957-4F0F-BE52-BF63658DADAE}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Flat File Connection Manager 2]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[Year]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[Year]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[Year]"
+                      name="Year"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[ChannelName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[ChannelName]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[ChannelName]"
+                      name="ChannelName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[TargetName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[TargetName]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[TargetName]"
+                      name="TargetName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[ TargetSalesAmount ]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[ TargetSalesAmount ]"
+                      length="50"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].Columns[ TargetSalesAmount ]"
+                      name=" TargetSalesAmount "
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[Year]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[ChannelName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ChannelName" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[TargetName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TargetName" />
+                    <externalMetadataColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output].ExternalColumns[ TargetSalesAmount ]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name=" TargetSalesAmount " />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Stage CSVFileTwo.Paths[Flat File Source Output]"
+              endId="Package\Stage CSVFileTwo\Destination CSVFileTwo.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Stage CSVFileTwo\Source CSVFileTwo.Outputs[Flat File Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -4619,6 +5355,70 @@
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[SalesHeaderID]"
+                      cachedDataType="i4"
+                      cachedName="SalesHeaderID"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[SalesHeaderID]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[SalesHeaderID]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[Date]"
+                      cachedDataType="dbDate"
+                      cachedName="Date"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[Date]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[Date]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[ChannelID]"
+                      cachedDataType="i4"
+                      cachedName="ChannelID"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[ChannelID]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[ChannelID]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[StoreID]"
+                      cachedDataType="i4"
+                      cachedName="StoreID"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[StoreID]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[StoreID]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[CustomerID]"
+                      cachedDataType="guid"
+                      cachedName="CustomerID"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[CustomerID]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[ResellerID]"
+                      cachedDataType="guid"
+                      cachedName="ResellerID"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[ResellerID]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[ResellerID]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[CreatedDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="CreatedDate"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[CreatedDate]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[CreatedDate]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[CreatedBy]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="CreatedBy"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[CreatedBy]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[CreatedBy]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[ModifiedDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="ModifiedDate"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[ModifiedDate]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[ModifiedDate]" />
+                    <inputColumn
+                      refId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].Columns[ModifiedBy]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ModifiedBy"
+                      externalMetadataColumnId="Package\Stage SalesHeader\Destination SalesHeader.Inputs[OLE DB Destination Input].ExternalColumns[ModifiedBy]"
+                      lineageId="Package\Stage SalesHeader\Source SalesHeader.Outputs[OLE DB Source Output].Columns[ModifiedBy]" />
+                  </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
@@ -5664,6 +6464,40 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Truncate CSVFileOne"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{815102CA-132B-4E06-B3A5-5AB03F0C1E28}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate CSVFileOne"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="11">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{48DA91B3-E61C-413F-82A4-10B40AFBC87E}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.StageChannel" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate CSVFileTwo"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{C95543F1-94C7-417C-B64D-0ADAFD572728}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate CSVFileTwo"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="10">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{48DA91B3-E61C-413F-82A4-10B40AFBC87E}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.StageChannel" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Truncate Customer"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
@@ -5672,7 +6506,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Customer"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5689,7 +6523,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Product"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="8">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5706,7 +6540,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate ProductCategory"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5740,7 +6574,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Reseller"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5774,7 +6608,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate SalesHeader"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="9">
+      DTS:ThreadHint="8">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5791,7 +6625,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Store"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="9">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5817,6 +6651,22 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Stage ChannelCategory" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
+      DTS:CreationName=""
+      DTS:DTSID="{BA0D4CB4-A5D9-45BB-829F-846A546A2F6E}"
+      DTS:From="Package\Truncate CSVFileOne"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 10"
+      DTS:To="Package\Stage CSVFileOne" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 11]"
+      DTS:CreationName=""
+      DTS:DTSID="{23962A2D-DD28-4F46-AD1B-F2DAE3DA2689}"
+      DTS:From="Package\Truncate CSVFileTwo"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 11"
+      DTS:To="Package\Stage CSVFileTwo" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -5893,15 +6743,87 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="152,42"
+          Id="Package\Stage Channel"
+          TopLeft="62,119" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Stage ChannelCategory"
+          TopLeft="261,117" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Stage Customer"
+          TopLeft="499,114" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Stage ProdcutType"
+          TopLeft="77,287" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Stage Product"
+          TopLeft="903,122" />
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Stage ProductCategory"
+          TopLeft="1112,120" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Stage Reseller"
+          TopLeft="718,119" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Stage SalesDetail"
+          TopLeft="539,293" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Stage SalesHeader"
+          TopLeft="781,284" />
+        <NodeLayout
+          Size="137,42"
+          Id="Package\Stage Store"
+          TopLeft="329,293" />
         <NodeLayout
           Size="166,42"
           Id="Package\Truncate Channel"
           TopLeft="57,30" />
         <NodeLayout
+          Size="214,42"
+          Id="Package\Truncate Channel Category"
+          TopLeft="256,30" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Truncate Customer"
+          TopLeft="497,29" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Truncate Product"
+          TopLeft="902,32" />
+        <NodeLayout
+          Size="208,42"
+          Id="Package\Truncate ProductCategory"
+          TopLeft="1094,36" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Truncate ProductType"
+          TopLeft="70,209" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Truncate Reseller"
+          TopLeft="706,31" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Truncate SalesDetail"
+          TopLeft="527,208" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Truncate SalesHeader"
+          TopLeft="762,199" />
+        <NodeLayout
           Size="152,42"
-          Id="Package\Stage Channel"
-          TopLeft="62,119" />
+          Id="Package\Truncate Store"
+          TopLeft="321,209" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="139,72">
@@ -5924,14 +6846,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="214,42"
-          Id="Package\Truncate Channel Category"
-          TopLeft="256,30" />
-        <NodeLayout
-          Size="196,42"
-          Id="Package\Stage ChannelCategory"
-          TopLeft="261,117" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="361,72">
@@ -5954,14 +6868,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Truncate Customer"
-          TopLeft="497,29" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Stage Customer"
-          TopLeft="499,114" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
           TopLeft="580.75,71">
@@ -5984,14 +6890,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Truncate Reseller"
-          TopLeft="706,31" />
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Stage Reseller"
-          TopLeft="718,119" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="791.25,73">
@@ -6014,14 +6912,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Truncate Product"
-          TopLeft="902,32" />
-        <NodeLayout
-          Size="149,42"
-          Id="Package\Stage Product"
-          TopLeft="903,122" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="980.5,74">
@@ -6044,14 +6934,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="208,42"
-          Id="Package\Truncate ProductCategory"
-          TopLeft="1094,36" />
-        <NodeLayout
-          Size="193,42"
-          Id="Package\Stage ProductCategory"
-          TopLeft="1112,120" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="1198,78">
@@ -6086,14 +6968,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Truncate ProductType"
-          TopLeft="70,209" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Stage ProdcutType"
-          TopLeft="77,287" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
           TopLeft="163.75,251">
@@ -6116,14 +6990,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="152,42"
-          Id="Package\Truncate Store"
-          TopLeft="321,209" />
-        <NodeLayout
-          Size="137,42"
-          Id="Package\Stage Store"
-          TopLeft="329,293" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
           TopLeft="397.25,251">
@@ -6146,14 +7012,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="181,42"
-          Id="Package\Truncate SalesDetail"
-          TopLeft="527,208" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Stage SalesDetail"
-          TopLeft="539,293" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
           TopLeft="619.75,250">
@@ -6176,14 +7034,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="189,42"
-          Id="Package\Truncate SalesHeader"
-          TopLeft="762,199" />
-        <NodeLayout
-          Size="174,42"
-          Id="Package\Stage SalesHeader"
-          TopLeft="781,284" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
           TopLeft="856.5,241">
@@ -6210,6 +7060,66 @@
                     Point3="11.5,25.5" />
                   <mssgle:LineSegment
                     End="11.5,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Truncate CSVFileOne"
+          TopLeft="1057,204" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Stage CSVFileOne"
+          TopLeft="1061,278" />
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Truncate CSVFileTwo"
+          TopLeft="75,366" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="1148.75,246">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32"
+              Start="0,0"
+              End="0,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Stage CSVFileTwo"
+          TopLeft="76,440" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="165.25,408">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32"
+              Start="0,0"
+              End="0,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6260,7 +7170,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Channel\Source Channel">
+    design-time-name="Package\Stage Channel\Destination Channel">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6273,7 +7183,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Channel\Destination Channel">
+    design-time-name="Package\Stage Channel\Source Channel">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6324,7 +7234,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage ChannelCategory\Source ChannelCategory">
+    design-time-name="Package\Stage ChannelCategory\Destination ChannelCategory">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6337,7 +7247,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage ChannelCategory\Destination ChannelCategory">
+    design-time-name="Package\Stage ChannelCategory\Source ChannelCategory">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6400,19 +7310,6 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Customer\Source Customer">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Stage Customer\Destination Customer">
     <Properties>
       <Property>
@@ -6425,211 +7322,8 @@
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Stage Reseller">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Stage Reseller\Source Reseller"
-          TopLeft="70,29" />
-        <NodeLayout
-          Size="178,42"
-          Id="Package\Stage Reseller\Destination Reseller"
-          TopLeft="60,117" />
-        <EdgeLayout
-          Id="Package\Stage Reseller.Paths[OLE DB Source Output]"
-          TopLeft="148.75,71">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46"
-              Start="0,0"
-              End="0,38.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Reseller\Source Reseller">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Reseller\Destination Reseller">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Stage Product">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Stage Product\Source Product"
-          TopLeft="88,31" />
-        <NodeLayout
-          Size="175,42"
-          Id="Package\Stage Product\Destination Product"
-          TopLeft="91,158" />
-        <EdgeLayout
-          Id="Package\Stage Product.Paths[OLE DB Source Output]"
-          TopLeft="165.5,73">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="13,85"
-              Start="0,0"
-              End="13,77.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,38.5"
-                    Point2="0,42.5"
-                    Point3="4,42.5" />
-                  <mssgle:LineSegment
-                    End="9,42.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9,42.5"
-                    Point2="13,42.5"
-                    Point3="13,46.5" />
-                  <mssgle:LineSegment
-                    End="13,77.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Product\Source Product">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Product\Destination Product">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Stage ProductCategory">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="199,42"
-          Id="Package\Stage ProductCategory\Source ProductCategory"
-          TopLeft="152,56" />
-        <NodeLayout
-          Size="220,42"
-          Id="Package\Stage ProductCategory\Destination ProductCategory"
-          TopLeft="157,139" />
-        <EdgeLayout
-          Id="Package\Stage ProductCategory.Paths[OLE DB Source Output]"
-          TopLeft="251.5,98">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="15.5,41"
-              Start="0,0"
-              End="15.5,33.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.5"
-                    Point2="0,20.5"
-                    Point3="4,20.5" />
-                  <mssgle:LineSegment
-                    End="11.5,20.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="11.5,20.5"
-                    Point2="15.5,20.5"
-                    Point3="15.5,24.5" />
-                  <mssgle:LineSegment
-                    End="15.5,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage ProductCategory\Source ProductCategory">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage ProductCategory\Destination ProductCategory">
+    design-time-name="Package\Stage Customer\Source Customer">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6692,19 +7386,6 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage ProdcutType\Source ProductType">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Stage ProdcutType\Destination ProductType">
     <Properties>
       <Property>
@@ -6717,33 +7398,58 @@
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage ProdcutType\Source ProductType">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Stage Store">
+    design-time-name="Package\Stage Product">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="143,42"
-          Id="Package\Stage Store\Source Store"
-          TopLeft="188,50" />
+          Size="155,42"
+          Id="Package\Stage Product\Source Product"
+          TopLeft="88,31" />
         <NodeLayout
-          Size="163,42"
-          Id="Package\Stage Store\Destination Store"
-          TopLeft="176,141" />
+          Size="175,42"
+          Id="Package\Stage Product\Destination Product"
+          TopLeft="91,158" />
         <EdgeLayout
-          Id="Package\Stage Store.Paths[OLE DB Source Output]"
-          TopLeft="258.5,92">
+          Id="Package\Stage Product.Paths[OLE DB Source Output]"
+          TopLeft="165.5,73">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,49"
+              EndConnector="13,85"
               Start="0,0"
-              End="0,41.5">
+              End="13,77.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.5" />
+                    End="0,38.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.5"
+                    Point2="0,42.5"
+                    Point3="4,42.5" />
+                  <mssgle:LineSegment
+                    End="9,42.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9,42.5"
+                    Point2="13,42.5"
+                    Point3="13,46.5" />
+                  <mssgle:LineSegment
+                    End="13,77.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6756,7 +7462,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Store\Source Store">
+    design-time-name="Package\Stage Product\Destination Product">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6769,7 +7475,147 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Store\Destination Store">
+    design-time-name="Package\Stage Product\Source Product">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage ProductCategory">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="199,42"
+          Id="Package\Stage ProductCategory\Source ProductCategory"
+          TopLeft="152,56" />
+        <NodeLayout
+          Size="220,42"
+          Id="Package\Stage ProductCategory\Destination ProductCategory"
+          TopLeft="157,139" />
+        <EdgeLayout
+          Id="Package\Stage ProductCategory.Paths[OLE DB Source Output]"
+          TopLeft="251.5,98">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15.5,41"
+              Start="0,0"
+              End="15.5,33.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.5"
+                    Point2="0,20.5"
+                    Point3="4,20.5" />
+                  <mssgle:LineSegment
+                    End="11.5,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11.5,20.5"
+                    Point2="15.5,20.5"
+                    Point3="15.5,24.5" />
+                  <mssgle:LineSegment
+                    End="15.5,33.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage ProductCategory\Destination ProductCategory">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage ProductCategory\Source ProductCategory">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage Reseller">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Stage Reseller\Source Reseller"
+          TopLeft="70,29" />
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Stage Reseller\Destination Reseller"
+          TopLeft="60,117" />
+        <EdgeLayout
+          Id="Package\Stage Reseller.Paths[OLE DB Source Output]"
+          TopLeft="148.75,71">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46"
+              Start="0,0"
+              End="0,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Reseller\Destination Reseller">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Reseller\Source Reseller">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6832,7 +7678,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesDetail\Source SalesDetail">
+    design-time-name="Package\Stage SalesDetail\Destination SalesDetail">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6845,7 +7691,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesDetail\Destination SalesDetail">
+    design-time-name="Package\Stage SalesDetail\Source SalesDetail">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6863,13 +7709,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="180,42"
-          Id="Package\Stage SalesHeader\Source SalesHeader"
-          TopLeft="110,23" />
-        <NodeLayout
           Size="201,42"
           Id="Package\Stage SalesHeader\Destination SalesHeader"
           TopLeft="105,106" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Stage SalesHeader\Source SalesHeader"
+          TopLeft="110,23" />
         <EdgeLayout
           Id="Package\Stage SalesHeader.Paths[OLE DB Source Output]"
           TopLeft="202.75,65">
@@ -6896,7 +7742,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesHeader\Source SalesHeader">
+    design-time-name="Package\Stage SalesHeader\Destination SalesHeader">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6909,7 +7755,197 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesHeader\Destination SalesHeader">
+    design-time-name="Package\Stage SalesHeader\Source SalesHeader">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage Store">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="143,42"
+          Id="Package\Stage Store\Source Store"
+          TopLeft="188,50" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Stage Store\Destination Store"
+          TopLeft="176,141" />
+        <EdgeLayout
+          Id="Package\Stage Store.Paths[OLE DB Source Output]"
+          TopLeft="258.5,92">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49"
+              Start="0,0"
+              End="0,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Store\Destination Store">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Store\Source Store">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage CSVFileOne">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Stage CSVFileOne\Source CSVOne"
+          TopLeft="77,34" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Stage CSVFileOne\Desitination CSVOne"
+          TopLeft="82,132" />
+        <EdgeLayout
+          Id="Package\Stage CSVFileOne.Paths[Flat File Source Output]"
+          TopLeft="157,76">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="16.5,56"
+              Start="0,0"
+              End="16.5,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24"
+                    Point2="0,28"
+                    Point3="4,28" />
+                  <mssgle:LineSegment
+                    End="12.5,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="12.5,28"
+                    Point2="16.5,28"
+                    Point3="16.5,32" />
+                  <mssgle:LineSegment
+                    End="16.5,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage CSVFileOne\Desitination CSVOne">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage CSVFileTwo">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Stage CSVFileTwo\Source CSVFileTwo"
+          TopLeft="77,33" />
+        <NodeLayout
+          Size="198,42"
+          Id="Package\Stage CSVFileTwo\Destination CSVFileTwo"
+          TopLeft="77,123" />
+        <EdgeLayout
+          Id="Package\Stage CSVFileTwo.Paths[Flat File Source Output]"
+          TopLeft="166,75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10,48"
+              Start="0,0"
+              End="10,40.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20"
+                    Point2="0,24"
+                    Point3="4,24" />
+                  <mssgle:LineSegment
+                    End="6,24" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6,24"
+                    Point2="10,24"
+                    Point3="10,28" />
+                  <mssgle:LineSegment
+                    End="10,40.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage CSVFileTwo\Destination CSVFileTwo">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
